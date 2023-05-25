@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace NewCoreAPI.Data
+namespace masterdata.website.Data
 {
     public class MasterDataDbContextFactory : IDesignTimeDbContextFactory<MasterDataDbContext>
     {

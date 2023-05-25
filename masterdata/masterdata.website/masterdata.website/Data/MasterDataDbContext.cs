@@ -3,7 +3,7 @@ using masterdata.website.Configuration;
 using masterdata.website.Models;
 using masterdata.website.Seeders;
 
-namespace NewCoreAPI.Data
+namespace masterdata.website.Data
 {
     public class MasterDataDbContext : DbContext
     {

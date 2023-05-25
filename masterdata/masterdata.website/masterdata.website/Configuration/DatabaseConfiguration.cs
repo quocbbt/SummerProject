@@ -187,14 +187,15 @@ namespace masterdata.website.Configuration
         {
             builder.ToTable("Product");
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Code);
-            builder.Property(x => x.OwnCode);
+            builder.Property(x => x.ProductCode);
+            builder.Property(x => x.ManufactureProductCode);
             builder.Property(x => x.Name);
             builder.Property(x => x.ShortName);
             builder.Property(x => x.TradeName);
             builder.Property(x => x.Url);
             builder.Property(x => x.SiteId).HasDefaultValue(0);
             builder.Property(x => x.CategoryId).HasDefaultValue(0);
+            builder.Property(x => x.ProviderId).HasDefaultValue(0);
             builder.Property(x => x.ManufactureId).HasDefaultValue(0);
             builder.Property(x => x.LanguageId).HasDefaultValue("vi-VN");
 
@@ -215,6 +216,7 @@ namespace masterdata.website.Configuration
             builder.Property(x => x.Width).HasDefaultValue(0);
             builder.Property(x => x.Length).HasDefaultValue(0);
             builder.Property(x => x.Height).HasDefaultValue(0);
+            builder.Property(x => x.Volume).HasDefaultValue(0);
 
             builder.Property(x => x.WarrantyInfo);
             builder.Property(x => x.Policy);
@@ -233,6 +235,8 @@ namespace masterdata.website.Configuration
             builder.Property(x => x.SalePrice).HasDefaultValue(0);
             builder.Property(x => x.WholeSalePrice).HasDefaultValue(0);
             builder.Property(x => x.ImportPrice).HasDefaultValue(0);
+            builder.Property(x => x.ImportVAT).HasDefaultValue(0);
+            builder.Property(x => x.ExportVAT).HasDefaultValue(0);
 
             builder.Property(x => x.CreatedDate);
             builder.Property(x => x.CreatedUser);
