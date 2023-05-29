@@ -36,6 +36,10 @@
         public bool IsActived { get; set; }
         public bool IsDeleted { get; set; }
         public int DisplayOrder { get; set; }
+        /// <summary>
+        /// Khai báo sản phẩm đại diện, dùng lấy SP cùng dòng
+        /// </summary>
+        public int RepresentProductId { get; set; }
 
         /// <summary>
         /// Kích thước, khối lượng để tính phí vận chuyển

@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./views/App";
+import SummerProject from "./views/SummerProject";
 import reportWebVitals from "./reportWebVitals";
+import "./assets/fonts/woodmart.woff2";
 import "./styles/global.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <SummerProject />
   </React.StrictMode>
 );
 
