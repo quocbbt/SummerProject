@@ -1,0 +1,15 @@
+.div__home--banner {
+  display: block;
+}
+
+.div__home--banner .container {
+  display: block;
+  max-width: 950px;
+  overflow: hidden;
+  margin-left: calc((100% - 1250px) / 2 + 300px);
+}
+
+.div__home--banner .container img {
+  max-width: 100%;
+  max-height: 350px;
+}

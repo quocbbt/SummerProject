@@ -107,7 +107,7 @@ class Header extends React.Component {
         <div className="block__menu">
           <div className="container">
             <div className="block__header--left block__header--visible__lg">
-              <div className="block__menu--detail">
+              <div className="block__menu--detail block__menu--active">
                 <span className="span__menu--detail">
                   <span className="span__icon"></span>
                   <span className="span__text">Danh mục sản phẩm</span>
@@ -120,6 +120,7 @@ class Header extends React.Component {
                           className="img__category--icon"
                           src="https://makagarden.vn/wp-content/uploads/2020/10/phan-bon-icon.png"
                           data-src="https://makagarden.vn/wp-content/uploads/2020/10/phan-bon-icon.png"
+                          alt="text"
                         />
                         <span className="span__category--name">Phân bón</span>
                       </a>
@@ -158,6 +159,7 @@ class Header extends React.Component {
                           className="img__category--icon"
                           src="https://makagarden.vn/wp-content/uploads/2020/10/dat-trong-cay-icon.png"
                           data-src="https://makagarden.vn/wp-content/uploads/2020/10/dat-trong-cay-icon.png"
+                          alt="Đất trồng cây - Giá thể"
                         />
                         <span className="span__category--name">
                           Đất trồng cây - Giá thể
@@ -212,6 +214,7 @@ class Header extends React.Component {
                           className="img__category--icon"
                           src="https://makagarden.vn/wp-content/uploads/2020/10/hat-giong-icon.png"
                           data-src="https://makagarden.vn/wp-content/uploads/2020/10/hat-giong-icon.png"
+                          alt="Hạt - cây giống"
                         />
                         <span className="span__category--name">
                           Hạt - cây giống
@@ -224,9 +227,23 @@ class Header extends React.Component {
                           className="img__category--icon"
                           src="https://makagarden.vn/wp-content/uploads/2020/10/dung-cu-lam-vuon-icon.png"
                           data-src="https://makagarden.vn/wp-content/uploads/2020/10/dung-cu-lam-vuon-icon.png"
+                          alt="Dụng cụ làm vườn"
                         />
                         <span className="span__category--name">
                           Dụng cụ làm vườn
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/hat-cay-giong">
+                        <img
+                          className="img__category--icon"
+                          src="https://makagarden.vn/wp-content/uploads/2020/10/chau-trong-cay-icon.png"
+                          data-src="https://makagarden.vn/wp-content/uploads/2020/10/chau-trong-cay-icon.png"
+                          alt="Chậu trồng cây"
+                        />
+                        <span className="span__category--name">
+                          Chậu trồng cây
                         </span>
                       </a>
                     </li>
